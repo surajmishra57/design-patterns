@@ -1,0 +1,4 @@
+rootProject.name = 'design-pattern'
+include 'IteratorPattern'
+include 'ObserverPattern'
+include 'StratergyPattern'
