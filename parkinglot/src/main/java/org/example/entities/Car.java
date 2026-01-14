@@ -1,4 +1,10 @@
 package org.example.entities;
 
-public class Car {
+import org.example.enums.VehicleSize;
+
+public class Car extends Vehicle {
+    public Car(String licenceNumber, VehicleSize vehicleSize) {
+        super(licenceNumber, vehicleSize);
+    }
+
 }
